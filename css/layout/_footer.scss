@@ -1,3 +1,50 @@
+//form subscribe
+
+.form{
+    width:40%;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    justify-content:space-between;    
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    @media screen and (max-width:1000px){
+        justify-content: center; 
+    
+        
+    }
+    
+    .btn{
+        background-color: #f67590 ;
+        padding: 10px;
+        color: white;
+        margin: 3px;
+        font-size: 13px;
+        @media screen and (max-width:1000px) {
+            display: none;
+
+        }
+        
+    }
+}
+#btnresponsive{
+    margin-top: 10px;
+    color: white;
+    border: 1px solid  white;
+    background: #f67590;
+    transition: .3s all ease-in-out;
+    &:hover{
+        background-color: black;
+        color:white;
+        border:1px solid black;
+    }
+    @media  screen and (min-width:1000px) {
+        display: none;       
+    }
+}
+
+
 .subscribe{
     display: flex;
     flex-direction: column;
@@ -6,6 +53,8 @@
     align-content: center;
     flex-wrap: wrap;
     color: white;
+    padding-top: 20px;
+    padding-bottom: 30px;
     h3{
         font-size: 24px;
         font-weight: 500;
@@ -14,18 +63,30 @@
         margin-bottom: 20px;
     }
     input{
-        padding:10px 30px;
+        padding:10px 15px;
         border-radius: 20px;
         border: transparent;
+        font-size: 14px;
+        border: none;
+        outline: none;
     }
 }
 
 .copyright{
     position: relative;
+  
+}
+.img_copyright{
     img{
         width: 100%;
     }
+
 }
+
+
+//2nd footer
+
+
 .txt_copyright{
     color: white;
     display: flex;
@@ -35,6 +96,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    text-align: center;
     .black{
         color: black;
     }
@@ -45,8 +107,10 @@
     
 }
 .links_copyright{
-    padding: 20px;    
-    span{font-size: 14px; }
+    padding: 15px;
+    padding-bottom: 0;    
+    span{font-size: 14px; ;}
+  
     a{
         color: white;
         padding: 10px;
