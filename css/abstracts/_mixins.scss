@@ -1,0 +1,24 @@
+    @mixin transition ($secondes) {
+    transition: $secondes all ease-in-out;
+    }
+
+    @mixin m0{
+        margin: 0 auto;
+    }
+    @mixin pop{
+        font-family: 'Poppins', sans-serif;
+
+    }
+    @mixin rob{
+        font-family: 'Roboto', sans-serif;
+
+    }
+    @mixin before{
+        content: ' ';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0 ;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.563);
+    }
