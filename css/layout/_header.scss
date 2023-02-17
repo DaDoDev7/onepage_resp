@@ -19,6 +19,10 @@ nav{
         color:white;
         font-weight: 600;
         font-size: 15px;
+        transition: all .3s ease-in-out;
+        &:hover{
+            color:black
+        }
     }
 }
 .main_header{
@@ -44,7 +48,12 @@ nav{
     span{
         margin-bottom: 20px;
     }
+  
 }
+.header_right{
+   display: flex; 
+  align-items: flex-end;
+}  
 .header_right img{
     width: 100%;
     display: block;
@@ -63,6 +72,7 @@ nav{
     align-items: center;
     align-content: space-between;
     transition: all .3s ease-in-out;
+    margin-bottom: 10px;
     &:hover{
         color:white;
         background-color: black;

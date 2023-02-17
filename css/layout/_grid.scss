@@ -6,7 +6,7 @@
                          "sixth seventh seventh"                       ;
     gap:1em;
   
-    @media screen and (max-width:1000px) {
+    @media screen and (max-width:800px) {
        grid-template-areas: "first""second" "third " "fourth" "fifth" "sixth" "seventh";
        grid-template-rows: repeat(7,1fr);
 
