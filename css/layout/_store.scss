@@ -1,0 +1,29 @@
+.store{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 40px 0 0;
+    gap: 1em;
+    @media  screen and (max-width:1000px) {
+        grid-template-columns: 1fr;
+    grid-template-rows:repeat(3,1fr);
+    gap:2em
+        
+    }
+}
+.portraits{
+    display: flex;
+    gap: 1em;
+    img{
+        object-fit: cover;
+        cursor: pointer;
+    }
+    
+}
+.portrait_text{
+    display: flex;
+    flex-direction: column;
+    h7{
+        cursor: pointer;
+    }
+
+}

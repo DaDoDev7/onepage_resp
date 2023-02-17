@@ -1,0 +1,23 @@
+.imgtravel{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    @media screen and (max-width:1000px) {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        
+    }
+    img{
+        width: 100%;
+    }
+}
+.txt_travel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 70%;
+    
+    span{
+        color: grey;
+    }
+}
